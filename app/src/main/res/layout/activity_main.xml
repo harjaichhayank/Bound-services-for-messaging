@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <Button
+        android:id="@+id/BindService"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="@string/bind_service"
+        android:onClick="bindService"/>
+
+    <Button
+        android:id="@+id/ButtonHello"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="466dp"
+        android:text="@string/say_hello"
+        android:onClick="sayHello"/>
+
+    <Button
+        android:id="@+id/ButtonHelloAgain"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="2dp"
+        android:text="@string/say_hello_again"
+        android:onClick="sayHello"/>
+</RelativeLayout>
